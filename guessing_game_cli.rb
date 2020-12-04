@@ -1,6 +1,6 @@
 def run_guessing_game
   number_to_guess = rand(6)+1
-  puts "Guess a number 1 through 6 dingus"
+  #puts "Guess a number 1 through 6 dingus"
   guess = gets.chomp
   if guess.downcase == "exit"
     then puts "Goodbye!"
