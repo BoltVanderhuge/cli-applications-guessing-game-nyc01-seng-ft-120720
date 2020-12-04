@@ -14,3 +14,6 @@ end
 
 guess.downcase == "exit"
     then puts "Goodbye!"
+    
+    if guess.to_i == number_to_guess
+    then puts "You guessed the correct number!"
