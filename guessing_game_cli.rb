@@ -10,3 +10,7 @@ def run_guessing_game
     then puts "Goodbye!"
   end
 end
+
+
+guess.downcase == "exit"
+    then puts "Goodbye!"
